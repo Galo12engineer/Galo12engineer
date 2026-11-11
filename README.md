@@ -10,7 +10,7 @@ Remote, based in Ukraine. Open to security engineering, DevSecOps and AI securit
 | Project | What it is |
 |---|---|
 | [**privacy-vpn**](https://github.com/Galo12engineer/privacy-vpn) | Privacy-first WireGuard VPN platform that ran in production Jul–Oct 2026. FastAPI + PostgreSQL control plane, RAM-only nodes over pinned TLS + HMAC, in-browser X25519 keygen, "no-logs as code" enforced in CI, 740+ tests. |
-| [**shadowpi**](https://github.com/Galo12engineer/shadowpi) | Raspberry Pi privacy router: OpenVPN with an optional V2Ray/Xray hop, a kill switch applied at boot and pinned to the VPN server, no DNS logging. I test it end to end in a [Docker lab](https://github.com/Galo12engineer/shadowpi/blob/fix/lab-verified-routing/docs/LAB.md) that runs the real installer on Debian arm64: 37 of 39 checks pass, the two open ones are documented. The lab caught a login-lockout bypass, session fixation and a leak past the kill switch, all fixed. Before release I found and fixed an unauthenticated control-API flaw. Not run on hardware yet; the Tor layer is experimental. |
+| [**shadowpi**](https://github.com/Galo12engineer/shadowpi) | Raspberry Pi privacy router: OpenVPN with an optional V2Ray/Xray hop, a kill switch applied at boot and pinned to the VPN server, no DNS logging. I test it end to end in a [Docker lab](https://github.com/Galo12engineer/shadowpi/blob/main/docs/LAB.md) that runs the real installer on Debian arm64: 37 of 39 checks pass, the two open ones are documented. The lab caught a login-lockout bypass, session fixation and a leak past the kill switch, all fixed. Before release I found and fixed an unauthenticated control-API flaw. Not run on hardware yet; the Tor layer is experimental. |
 
 ## Now working on
 
